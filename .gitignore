@@ -1,0 +1,500 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by Poetry and mypy
+**/.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Mpify
+.mpify/
+
+# Poetry
+#   Poetry creates pyproject.toml and poetry.lock, but does not use .gitignore.
+#   Uncomment the next line if you want to ignore them.
+# poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, include pdm.lock in version control.
+# pdm.lock
+# .pdm-build/
+# .pdm-cache/
+# __pypackages__/
+
+# Django
+db.sqlite3-journal
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy/
+
+# Pyre type checker
+.pyre/
+.pyre_configuration
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to your project. Our .gitignore file will still work without it.
+.idea/
+
+# VS Code
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Pyright
+.pyright/
+
+# Sublime Text
+*.tml
+.sublime-project
+.sublime-workspace
+
+# Emacs
+.*~
+
+# Vim
+.*.swp
+.*.swo
+.*.swn
+.*.swo
+.tags*
+
+# IDE
+.idea
+.project
+.classpath
+.cproject
+.settings/
+tooling/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Logs
+*.log
+logs/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js
+.next/
+
+# nuxt.js
+# Nuxt generates .nuxt/ directory with everything needed
+# to run the application.
+# Uncomment the next line if you don't want to commit
+# all .nuxt/ files.
+#.nuxt/
+
+# svelte-kit
+.svelte-kit/
+
+# rollupjs
+# See https://github.com/rollup/rollup/wiki/Development-FAQ#why-isnt-my-iife-or-umd-output-working
+# for more details.
+dist/
+dist-ssr/
+
+# Storybook
+.out/
+
+# Optional
+#   If you have a .gitignore file in your project root, uncomment the following lines to
+#   exclude the .cache directory from being committed.
+.cache/
+
+# Poetry
+#   Poetry ignores .python-version by default, but you can uncomment the next line if you want
+#   to ignore it as well.
+.python-version
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/README.md
+
+# IDE - PyCharm
+.idea/
+*.iml
+*.iws
+out/
+
+# IDE - Eclipse
+.metadata
+bin/
+target/
+*.project
+*.pydevproject
+*.launch
+.apt_generated
+.classpath
+.factorypath
+.settings/
+.sts4-cache/
+
+# IDE - IntelliJ
+*.iws
+*.iml
+*.ipr
+out/
+.idea/
+
+# Misc
+*.swp
+*.bak
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+.DS_Store
+.project
+.settings/
+.classpath
+.cproject
+.fbp
+.externalToolBuilders/
+.mymetadata
+.pmd
+.checkstyle
+.cache-main
+.cache-test
+.idea
+.vscode
+*.log
+logs/
+tmp/
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+Dockerfile*
+docker-compose*
+.docker
+
+# Kubernetes
+k3d*
+kubefwd*
+minikube*
+skaffold-*
+*.kubeconfig
+.kube/
+
+# Helm
+charts/
+templates/
+
+# CI/CD
+.github/workflows/
+!README.md
+!.github/workflows/ci.yml  # Keep essential workflows if needed
+
+# GitHub Actions cache
+actions-cache/
+
+# ArgoCD
+argocd-*
+
+# Monitoring/Dashboards
+grafana/
+prometheus/
+*.db  # SQLite dbs for local testing
+
+# ML/AI Specific
+# HuggingFace
+cache/
+huggingface_hub_cache/
+*.bin  # Model weights (large, commit only if small)
+*.safetensors  # Same for safetensors
+
+# Datasets (large files, use DVC or git lfs if needed)
+data/
+datasets/
+raw_data/
+processed_data/
+models/
+checkpoints/
+*.h5
+*.pkl
+*.joblib
+
+# vLLM / Ray
+ray_session_latest.*
+ray_results/
+__ray_session_2.0.checkpoint/
+
+# Qdrant
+.qdrant/
+
+# Redis / Kafka local
+redis.conf
+kafka/logs/
+zookeeper/
+
+# Locust / Load Testing
+locustfile.py  # Keep, but ignore results
+locust-*
+
+# Streamlit
+.streamlit/
+
+# Weights & Biases
+wandb/
+runs/
+
+# LangFuse
+.langfuse/
+
+# OpenTelemetry
+traces/
+metrics/
+
+# Solana / Web3
+*.keypair.json  # Private keys
+keystore/
+wallet/
+
+# Modal / Render / GCP
+modal.toml  # If contains secrets
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# Poetry specific
+poetry.lock  # Keep in repo, but ignore if per-week
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.pytest_cache/
+**/coverage.xml
+**/htmlcov/
+**/pip-wheel-metadata/
+**/share/python-wheels/
+**/*.egg-info/
+**/dist/
+**/build/
+**/eggs/
+**/.eggs/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/pip-log.txt
+**/pip-delete-this-directory.txt
+
+# Fine-tuning / PEFT
+trainer_state.json
+optimizer.pt
+scheduler.pt
+best_model.safetensors
+checkpoint-*
+
+# General ML caches
+.torch/
+.pickle-cache/
+numpy_pickle_*
+
+# Twitter / Tweets data (Week 4)
+tweets.jsonl  # Large, use external if >100MB
+
+# PDF / Docs ingestion
+*.pdf  # Sample docs only; ignore user uploads
+ingested_docs/
+
+# gRPC
+grpc_*.py  # Generated, regenerate on build
+
+# All weeks: Ignore secrets and env
+*.env*
+secrets/
+keys/
+
+# Global ignores for self-contained weeks
+week-*/.git/  # If submodules, but avoid
+week-*/node_modules/  # If any JS deps
+week-*/.cache/
+week-*/__pycache__/
+week-*/venv/
+week-*/.venv/
+week-*/data/large_*.json  # Large datasets per week
+
